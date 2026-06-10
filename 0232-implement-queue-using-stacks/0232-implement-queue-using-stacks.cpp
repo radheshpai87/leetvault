@@ -2,10 +2,6 @@ class MyQueue {
 public:
     stack<int>st1;
     stack<int>st2;
-    MyQueue() {
-        
-    }
-    
     void push(int x) {
         st1.push(x);
     }
